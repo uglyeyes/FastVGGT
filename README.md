@@ -27,6 +27,8 @@ Create a virtual environment using Conda, clone this repository to your local ma
 
 
 ```bash
+conda create -n fastvggt python=3.10
+conda activate fastvggt
 git clone git@github.com:mystorm16/FastVGGT.git
 cd FastVGGT
 pip install -r requirements.txt

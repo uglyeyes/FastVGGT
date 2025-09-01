@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 
-## 💎 Observation
+## 👀 Observation
 
 Note: A large number of input_frames may significantly slow down saving the visualization results. Please try using a smaller number first.
 ```bash

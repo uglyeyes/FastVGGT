@@ -13,7 +13,7 @@
 
 
 ## 📰 News
-- [Sep 1, 2025] Code release.
+- [Sep 2, 2025] Code release.
 
 ## 🔭 Overview
 

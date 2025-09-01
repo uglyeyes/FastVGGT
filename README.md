@@ -34,6 +34,25 @@ cd FastVGGT
 pip install -r requirements.txt
 ```
 
+Next, prepare the ScanNet dataset: http://www.scan-net.org/ScanNet/
+
+Then, configure the dataset path and VGGT checkpoint path. For example:
+```bash
+    parser.add_argument(
+        "--data_dir", type=Path, default="/data/scannetv2/process_scannet"
+    )
+    parser.add_argument(
+        "--gt_ply_dir",
+        type=Path,
+        default="/data/scannetv2/OpenDataLab___ScanNet_v2/raw/scans",
+    )
+    parser.add_argument(
+        "--ckpt_path",
+        type=str,
+        default="./ckpt/model_tracker_fixed_e20.pt",
+    )
+```
+
 
 ## 💎 Observation
 

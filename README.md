@@ -23,7 +23,7 @@ FastVGGT observes **strong similarity** in attention maps and leverages it to de
 
 
 ## ⚙️ Environment Setup
-Create a virtual environment using Conda, clone this repository to your local machine, and install the required dependencies.
+First, create a virtual environment using Conda, clone this repository to your local machine, and install the required dependencies.
 
 
 ```bash

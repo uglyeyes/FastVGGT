@@ -1,5 +1,5 @@
 <div align="center">
-<h2>⚡️FastVGGT: Training-Free Acceleration of Visual Geometry Transformer</h2>
+<h2>⚡️ FastVGGT: Training-Free Acceleration of Visual Geometry Transformer</h2>
 
 <img src="assets/maclab_logo.png" alt="Maclab Logo" width="110" style="margin-right: 40px;">
 <img src="assets/autolab_logo.png" alt="Autolab Logo" width="110">

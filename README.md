@@ -2,6 +2,7 @@
 <h2>⚡️ FastVGGT: Training-Free Acceleration of Visual Geometry Transformer</h2>
   
 <p align="center">
+  <a href="https://mystorm16.github.io/fastvggt/"><img src="https://img.shields.io/badge/arXiv-FastVGGT-red?logo=arxiv" alt="Paper PDF"></a>
   <a href="https://mystorm16.github.io/fastvggt/"><img src="https://img.shields.io/badge/Project_Page-FastVGGT-orange" alt="Project Page"></a>
 </p>
   

@@ -3,7 +3,7 @@
   
 <p align="center">
   <a href="https://mystorm16.github.io/fastvggt/"><img src="https://img.shields.io/badge/arXiv-FastVGGT-red?logo=arxiv" alt="Paper PDF"></a>
-  <a href="https://mystorm16.github.io/fastvggt/"><img src="https://img.shields.io/badge/Project_Page-FastVGGT-orange" alt="Project Page"></a>
+  <a href="https://mystorm16.github.io/fastvggt/"><img src="https://img.shields.io/badge/Project_Page-FastVGGT-yellow" alt="Project Page"></a>
 </p>
   
 <img src="assets/maclab_logo.png" alt="Maclab Logo" width="110" style="margin-right: 40px;">

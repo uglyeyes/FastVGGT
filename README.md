@@ -2,7 +2,6 @@
 <h2>⚡️ FastVGGT: Training-Free Acceleration of Visual Geometry Transformer</h2>
   
 <p align="center">
-  <a href="https://arxiv.org/abs/2501.18672"><img src="https://img.shields.io/badge/arXiv-DYG-red?logo=arxiv" alt="Paper PDF"></a>
   <a href="https://quyans.github.io/Drag-Your-Gaussian/"><img src="https://img.shields.io/badge/Project_Page-DYG-green" alt="Project Page"></a>
 </p>
   

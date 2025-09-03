@@ -2,7 +2,7 @@
 <h2>⚡️ FastVGGT: Training-Free Acceleration of Visual Geometry Transformer</h2>
   
 <p align="center">
-  <a href="https://mystorm16.github.io/fastvggt/"><img src="https://img.shields.io/badge/arXiv-FastVGGT-red?logo=arxiv" alt="Paper PDF"></a>
+  <a href="https://arxiv.org/abs/2509.02560"><img src="https://img.shields.io/badge/arXiv-FastVGGT-red?logo=arxiv" alt="Paper PDF"></a>
   <a href="https://mystorm16.github.io/fastvggt/"><img src="https://img.shields.io/badge/Project_Page-FastVGGT-yellow" alt="Project Page"></a>
 </p>
   
@@ -18,6 +18,7 @@
 
 
 ## 📰 News
+- [Sep 3, 2025] Paper release.
 - [Sep 2, 2025] Code release.
 
 ## 🔭 Overview

